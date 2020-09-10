@@ -14,31 +14,31 @@ int main(void) {
   double x = atof(grade);
   char *letter = " ";
   if (x >= 93.0) {
-    char *letter = "A";
+    letter = "A";
   }
   else if(x >= 90.0 && x < 93.0) {
-    char *letter = "A-";
+    letter = "A-";
   }
   else if(x >= 87.0 && x < 90.0) {
-    char *letter = "B+";
+    letter = "B+";
   }
   else if(x >= 83.0 && x < 87.0) {
-    char *letter = "B";
+    letter = "B";
   }
   else if(x >= 80.0 && x < 83.0) {
-    char *letter = "B-";
+    letter = "B-";
   }
   else if(x >= 77.0 && x < 80.0) {
-    char *letter = "C+";
+    letter = "C+";
   }
   else if(x >= 70 && x < 77.0) {
-    char *letter = "C";
+    letter = "C";
   }
   else if(x >= 60.0 && x < 70.0) {
-    char *letter = "D";
+    letter = "D";
   }
   else if(x < 60.0) {
-    char *letter = "F";
+    letter = "F";
   }
   printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   return 0;
